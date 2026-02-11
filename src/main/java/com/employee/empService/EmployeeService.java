@@ -88,4 +88,7 @@ public int sum() {
 	int aa=z.stream().collect(Collectors.summingInt(x->x.getSalary()));
 	return aa;
 }
+public List<Employee>get() {
+	return er.get();
+}
 }

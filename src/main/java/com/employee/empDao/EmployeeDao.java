@@ -47,4 +47,8 @@ public String delete(int a) {
 	er.deleteById(a);
 	return "one delete successfully";
 }
+public List<Employee>get() {
+	List<Employee> a=er.findAll();
+	return a;
+}
 }

@@ -87,4 +87,9 @@ public int min(){
 public int sum() {
 	return es.sum();
 }
+@GetMapping (value="all")
+public List<Employee> get(){
+	return es.get();
+	
+}
 }
